@@ -1,0 +1,23 @@
+[
+  {
+    "id": "polo-piers-azul-1",
+    "nombre": "Polo Piers Azul",
+    "precio": 10.0,
+    "marca":"piers",
+    "fotos": []
+  },
+  {
+    "id": "polo-nike-azul-1",
+    "nombre": "Polo Nike Azul",
+    "precio": 15.5,
+    "marca":"Nike",
+    "fotos": []
+  },
+  {
+    "id": "zapatillas-nike-azul-1",
+    "nombre": "Zapatilla Nike Azul",
+    "precio": 95.5,
+    "marca":"Nike",
+    "fotos": []
+  }
+]
