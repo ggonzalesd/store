@@ -1,10 +1,9 @@
-import { Button, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import { StandLayout } from '../layout/StandLayout';
 
 export const StandPage = () => {
   return (
     <StandLayout>
-      <Button variant='contained'>Hello</Button>
       <Typography>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, omnis
         culpa. Molestias deserunt qui quos aut odio dolores officiis vitae
