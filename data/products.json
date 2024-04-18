@@ -5,8 +5,8 @@
     "precio": 10.0,
     "marca":"piers",
     "fotos": [
-      "polo/polo1.jpg",
-      "polo/polo2.jpg"
+      "polos/polo1.jpg",
+      "polos/polo2.jpg"
     ]
   },
   {
@@ -15,7 +15,7 @@
     "precio": 15.5,
     "marca":"Nike",
     "fotos": [
-      "polo/polo3.jpg"
+      "polos/polo3.jpg"
     ]
   },
   {
@@ -24,8 +24,8 @@
     "precio": 95.5,
     "marca":"Nike",
     "fotos": [
-      "polo/zapatilla.jpg",
-      "polo/zapatilla2.jpg"
+      "polos/zapatilla.jpg",
+      "polos/zapatilla2.jpg"
     ]
   }
 ]

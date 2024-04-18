@@ -1,15 +1,22 @@
-import { Typography } from '@mui/material';
 import { StandLayout } from '../layout/StandLayout';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { startLoadingProducts } from '../../store/stand/thunks';
+import { Product } from '../../ui/Product';
 
 export const StandPage = () => {
+  const { products } = useSelector((state) => state.stand);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(startLoadingProducts());
+  }, []);
+
   return (
     <StandLayout>
-      <Typography>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, omnis
-        culpa. Molestias deserunt qui quos aut odio dolores officiis vitae
-        officia eligendi deleniti id nisi magnam, ullam quisquam accusantium
-        maxime!
-      </Typography>
+      {products.map((product) => (
+        <Product key={product.id} product={product} />
+      ))}
     </StandLayout>
   );
 };
